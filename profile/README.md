@@ -9,6 +9,7 @@
 ## Opensource NestJS Apps
 
 - [ScrapingBee](https://github.com/juicyllama/nestjs-scrapingbee) - NestJS ScrapingBee API Wrapper
+- [AWeber](https://github.com/juicyllama/nestjs-aweber) - NestJS AWeber API Wrapper
 
 ## Social Links
 
