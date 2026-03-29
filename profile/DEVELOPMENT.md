@@ -13,9 +13,9 @@
 
 | Type | Format | Example |
 | :--- | :--- | :--- |
-| Feature | `feature/OMNI-XXX` | `feature/OMNI-369` |
-| Bug fix | `bugfix/OMNI-XXX` | `bugfix/OMNI-421` |
-| Hotfix | `hotfix/OMNI-XXX` | `hotfix/OMNI-500` |
+| Feature | `feature/XXX-NNN` | `feature/JL-369` |
+| Bug fix | `bugfix/XXX-NNN` | `bugfix/JL-421` |
+| Hotfix | `hotfix/XXX-NNN` | `hotfix/JL-500` |
 
 ---
 
@@ -199,7 +199,7 @@ npm run go
 ### How it works
 
 | Event | What happens | Deploy? |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | PR to `main` | Lint → Type Check → Unit Tests → Build | No |
 | Push to `main` | Lint → Type Check → Unit Tests → Build → Deploy (Prod) → Auto-sync staging | Yes (prod) |
 | Push to `staging` | Lint → Type Check → Unit Tests → Build → Deploy (Preview) | Yes (preview) |
